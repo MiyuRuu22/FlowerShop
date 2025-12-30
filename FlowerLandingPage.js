@@ -26,14 +26,14 @@ export default function FlowerlandingPage() {
             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                 <View style={styles.flowerCard}>
                     <Image
-                        source={{ uri: 'https://images.unsplash.com/photo-1686125616977-34f6d5979eb1?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}}
+                        source={{ uri: 'https://images.unsplash.com/photo-1686125616977-34f6d5979eb1?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
                         style={styles.flowerImage}
                     />
                         <Text style={styles.flowerTitle}>White Base</Text>
                 </View>
                 <View style={styles.flowerCard}>
                     <Image
-                        source={{ uri:'https://images.unsplash.com/photo-1581264692636-3cf6f29655c2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
+                        source={{ uri: 'https://images.unsplash.com/photo-1581264692636-3cf6f29655c2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
                         style={styles.flowerImage}
                     />
                     <Text style={styles.flowerTitle}>Red Rose</Text>
@@ -45,21 +45,21 @@ export default function FlowerlandingPage() {
                     />
                     <Text style={styles.flowerTitle}>Lily</Text>
                 </View>
-                <View>
+                <View style={styles.flowerCard}>
                     <Image
                         source={{ uri: 'https://images.unsplash.com/photo-1487435636644-3ad040f0195b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
                         style={styles.flowerImage}
                     />
                     <Text style={styles.flowerTitle}>Tulip</Text>
                 </View>
-                <View>
+                <View style={styles.flowerCard}>
                     <Image
                         source={{ uri: 'https://images.unsplash.com/photo-1556216750-2108e1e54e9a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
                         style={styles.flowerImage}
                     />
                     <Text style={styles.flowerTitle}>Orchid</Text>
                 </View>
-                <View>
+                <View style={styles.flowerCard}>
                     <Image
                         source={{ uri: 'https://images.unsplash.com/photo-1695112691738-5227cabb206f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
                         style={styles.flowerImage}
